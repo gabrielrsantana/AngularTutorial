@@ -1,5 +1,9 @@
+#logo{
+    position: relative;
+    top:-12px;
+}
 nav{
-    background-color: rgba(243, 25, 25, 0.918);
+    background-color: rgba(19, 112, 235, 0.815);
 }
 .menu_cor{
     color: white;

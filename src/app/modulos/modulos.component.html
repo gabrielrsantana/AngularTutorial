@@ -1,0 +1,55 @@
+<h1>Módulos no Angular</h1>
+<section>
+    <article class="justify">
+        <h3>Pré configuração</h3>
+        <p> Para
+            evitar erros de compilação por causa do modo restrito, o recomendado é desabilitá lo
+            no projeto.</p>
+        <p> Para desabilitar o modo restrito strict no Angular, edite o arquivo tsconfig json localizado
+            na raiz do projeto, e altere a seguinte linha de</p>
+        1. <strong> strict true</strong>
+        Para <strong> strict false</strong>
+
+        <p> Pronto,
+            feito isso o modo restrito strict será desabilitado e nenhum erro de compilação por
+            causa dele será gerado</p>
+
+    </article>
+    <article>
+        <h3>Criando um projeto</h3>
+        <ol>
+            <li>ng new ola-mundo</li>
+            <li>cd ola-mundo</li>
+            <li>ng serve</li>
+            <li>Remover componentes de teste em app.componentes.spec.ts</li>
+            <li>Apagar todo o conteúdo do arquivo app.componente.html</li>
+            <li>Digitar algo no app.component.html, como Olá mundo!</li>
+            <li>Abra uma nova janela cmd , entre no direitório do projeto calculadora. (você
+                ficará utilizando 2 prompts, 1 para que a aplicação fique em execução e outro
+                pra executar alguns comandos necessários.)
+            </li>
+            <li>Va no navegador e digite: <strong> http://localhost:4200/</strong></li>
+
+        </ol>
+        
+            <h3>Criando o Módulo</h3>
+            <p>No contexto do Angular um módulo é a forma de agrupar componentes, diretivas, pipes e serviços que são
+                relacionados. Esse conjunto de módulo são “encaixados” para formar a aplicação, isso mesmo como se fosse
+                peças de Lego. Um módulo pode esconder ou exportar um componente, diretiva, serviço ou pipe</p>
+            <p>Todo app angular tem pelo menos um módulo</p>
+            <p>para criar um módulo dentro com projeto anterior, vá para o prompt dentro da pasta do projeto e digite:
+                <strong>ng g module ola-mundo.</strong></p>
+            <p>deverá ser criada uma pasta dentro de src ->app ->ola-mundo </p>
+      
+
+       
+
+    </article>
+    <article>
+        <figure>
+
+            <img src="../../assets/imagens/modulos-esquema.PNG" alt="esquema" width="500">
+            <figcaption>Módulos e sua organização. fonte: youtube</figcaption>
+        </figure>
+    </article>
+</section>
