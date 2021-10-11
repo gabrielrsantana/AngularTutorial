@@ -3,6 +3,7 @@
 import { NgModule } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
 //importando o componete inicio
+import { ComponenteComponent } from "./componente";
 import {InicioComponent} from './inicio';
 import { ModulosComponent } from "./modulos";
 import { TypescriptComponent } from "./typescript";
@@ -21,6 +22,11 @@ export const routes = [
     {    
         path: 'modulos',
         component: ModulosComponent
+
+    },
+    {    
+        path: 'componentes',
+        component: ComponenteComponent
 
     }
 
