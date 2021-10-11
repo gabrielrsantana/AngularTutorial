@@ -1,6 +1,6 @@
     <!-- nesse arquivo fica o Menu principal que direciona para os links dos outros projetos ,
     usando [routerLink] -->
-<nav class="navbar navbar-inverse">
+<nav class="navbar">
   <div class="container-fluid">
     <!-- suporte a mobile -->
     <div class="navbar-header">
@@ -16,7 +16,7 @@
     <!-- navbar -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="#">Inicial 1</a></li>
+        <li><a class="menu_cor" [routerLink]="['/typescript']">TypeScrip</a></li>
         <li><a href="#">Inicial 2</a></li>
         <!-- inicio do 1º dropdown com os links -->
         <li class="dropdown">

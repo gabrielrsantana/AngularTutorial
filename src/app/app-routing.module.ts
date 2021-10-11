@@ -4,13 +4,20 @@ import { NgModule } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
 //importando o componete inicio
 import {InicioComponent} from './inicio';
+import { TypescriptComponent } from "./typescript";
 
 //faz export das rotas pra ficar disponivel pro modulo principal
 export const routes = [
-    {    //o path vazio significa que é a raiz do projeto,e é redirecionado para o dashboard
+    {    //o path vazio significa que é a raiz do projeto,e se tiver redicrectTo é redirecionado 
         path: '',
         component: InicioComponent
     },
+    {    
+        path: 'typescript',
+        component: TypescriptComponent
+
+    },
+
     /// '...' significa que pega todas as rotas e concatena aqui,do dashboard
     //acrescente todas as rotas dos componentes criados nos outros projetos
     // ...DashboardRoutes,
@@ -21,6 +28,7 @@ export const routes = [
 //ngmodule é o que diz se e decorador ou nao
 @NgModule({
     imports:[
+    
         //forRoot garante que e modulo unico da aplicação
         RouterModule.forRoot(routes)
     ],
