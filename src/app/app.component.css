@@ -1,6 +1,7 @@
 #logo{
     position: relative;
-    top:-12px;
+    top:0px;
+    width:40%;
 }
 nav{
     background-color: rgba(19, 112, 235, 0.815);
