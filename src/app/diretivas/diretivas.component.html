@@ -14,11 +14,11 @@
     <article>
         <h3>tipos de diretivas</h3>
         <ol>
-            <li><strong>ngStyle</strong>  A diretiva ngStyle serve para alterar em tempo real valores de
+            <li><strong>ngStyle</strong> A diretiva ngStyle serve para alterar em tempo real valores de
                 propriedades de CSS dentro de um elemento HTML ou componente Essa
                 diretiva receberá um objeto com as propriedades que serão mudadas
                 dinamicamente Para usar essa diretiva, adicione o como atributo do seu
-                elemento ou componente com a sintaxe  colchete  o objeto receberá as
+                elemento ou componente com a sintaxe colchete o objeto receberá as
                 propriedades que serão mudadas que serão interpretadas pelo Angular e
                 executadas visualmente pra o usuário</li><img width="50%" src="../../assets/imagens/twdb.PNG" alt="ss">
             <li><strong> ngClass</strong> A diretiva ngClass serve para adicionar ou remover uma classe de
@@ -30,7 +30,36 @@
                 valor desse atributo é uma string com o nome da classe A sintaxe é a
                 mesma do ngStyle Basta colocar a diretiva como atributo [ngClass]= &#123; &#125;
             </li>
-            <li></li>
+            <li><strong>ngIf</strong> O ngIf é uma diretiva estrutural que, a partir de uma condição
+                booleana, pode ou não adicionar elementos a DOM, dinamizando ainda
+                mais o site a interatividade do usuário Diferente das outras diretivas
+                apresentadas, essa não ficará em volta de colchetes, mas sim acompanhada
+                de um asterisco sendo assim sua sintaxe <strong> *ngIf</strong> expressaoBooleana
+                Adicionando o ngIf a algum elemento, ele pode ou não ser criado dentro da
+                DOM do seu website</li>
+            <li><strong> ngSwitch</strong> O ngSwitch também é uma diretiva estrutural e similar a estrutura
+                switch das linguagens de programação O diferencial dessa diretiva é que ela
+                se divide em 3 partes <strong> ngSwitch ngSwitchCase engSwitchDefault</strong> onde
+                ongSwitch recebe o atributo que será testado, ngSwitchCase receberá o
+                valor que tornará o case verdadeiro e o ngSwitchDefault será um elemento
+                padrão que será renderizado caso nenhum dos cases for verdadeiro A
+                sintaxe do ngSwitch é [ngSwitch]='attribute' Enquanto do ngSwitchCase e
+                do ngSwitchDefault recebem o asterisco na frente deles</li>
+            <li><strong> ngFor</strong> Essa diretiva, sem dúvida, é uma das mais importantes Com ela, você
+                constrói laços de repetição para arrays que contém dados que serão
+                apresentados na tela do usuário A sintaxe dessa diretiva é parecida com a do
+                ngIf No entanto, o jeito de usá lo é diferente Para usá lo, a sintaxe dele é
+                ngFor let value of values A variável value possui um único valor de alguma
+                posição do array values podendo acessar assim o seu valor Se caso for
+                necessário, você pode também acessar o índice atual do elemento do array Para
+                isso, basta adicionar um ponto e vírgula ((;;)depois da primeira expressão e
+                depois criar uma nova variável que receberá o índice, ficando da seguinte forma
+                ngFor let value of values let idx index”
+                Fazendo
+                assim, o índice atual do elemento estará acessível</li> <img src="../../assets/imagens/ngfor.PNG" alt="for">
         </ol>
     </article>
+    <a [routerLink]="['/pipes']">
+        Próxima (pipes)
+      </a>
 </section>

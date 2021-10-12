@@ -7,6 +7,7 @@ import { TypescriptComponent } from './typescript';
 import { ModulosComponent } from './modulos/modulos.component';
 import { ComponenteComponent } from './componente/componente.component';
 import { DiretivasComponent } from './diretivas/diretivas.component';
+import { PipesComponent } from './pipes/pipes.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { DiretivasComponent } from './diretivas/diretivas.component';
     ModulosComponent,
     TypescriptComponent,
     ComponenteComponent,
-    DiretivasComponent
+    DiretivasComponent,
+    PipesComponent
    
   ],
   imports: [

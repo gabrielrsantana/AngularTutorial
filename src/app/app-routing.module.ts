@@ -7,6 +7,7 @@ import { ComponenteComponent } from "./componente";
 import { DiretivasComponent } from "./diretivas";
 import {InicioComponent} from './inicio';
 import { ModulosComponent } from "./modulos";
+import { PipesComponent } from "./pipes";
 import { TypescriptComponent } from "./typescript";
 
 //faz export das rotas pra ficar disponivel pro modulo principal
@@ -33,6 +34,11 @@ export const routes = [
     {    
         path: 'diretivas',
         component: DiretivasComponent
+
+    },
+    {    
+        path: 'pipes',
+        component: PipesComponent
 
     }
 
