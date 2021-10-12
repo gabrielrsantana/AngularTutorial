@@ -4,32 +4,42 @@
     width:40%;
 }
 nav{
-    background-color: rgba(19, 112, 235, 0.815);
+    /* background-color: rgba(19, 112, 235, 0.815); */
+    background-color: #1976d2;
 }
 .menu_cor{
     color: white;
 }
 nav a:hover{
-    background-color: firebrick;
+    background-color: rgba(201, 235, 233, 0.63);
     color: floralwhite;
+    border-radius: 5px;
 }
 nav .open a, nav .open a:active {
-background-color: firebrick;
+background-color: rgba(144, 194, 235, 0.93);
 color: floralwhite;
 }
 nav .open a:hover {
-    background-color: rgb(214, 175, 175);
+    background-color: rgb(120, 177, 230);
     color: rgb(3, 46, 102);
+    font-weight: bold;
 }
 nav a:active {
-    background-color: rgb(219, 77, 77);
+    background-color: rgb(120, 177, 230);
     color: rgb(3, 46, 102);
 }
 /* quando clicar num link a, fica marcado  */
 ul a:focus{
-    background-color: rgb(231, 83, 72);
+    background-color: rgb(120, 177, 230);
 }
 img p{
     margin-top: 15px;
     margin-bottom: 15px;
+}
+footer p{
+    text-align: center;
+    position: relative;
+    top: 300px;
+    font-size: 25px;
+    color: azure;
 }
