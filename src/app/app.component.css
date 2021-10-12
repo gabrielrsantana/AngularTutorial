@@ -29,3 +29,7 @@ nav a:active {
 ul a:focus{
     background-color: rgb(231, 83, 72);
 }
+img p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

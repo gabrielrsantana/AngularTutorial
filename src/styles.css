@@ -1,1 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+article{
+    background-color: rgba(214, 227, 231, 0.644);
+    border-radius:5px;
+padding-top: 15px;
+padding-bottom: 15px;
+box-shadow: 0 0 9px 5px rgba(214, 227, 231, 0.644);
+}
+#logo{
+    position: relative;
+    top:0px;
+    width:40%;
+}
+nav{
+    background-color: rgba(19, 112, 235, 0.815);
+}
+.menu_cor{
+    color: white;
+}
+nav a:hover{
+    background-color: firebrick;
+    color: floralwhite;
+}
+nav .open a, nav .open a:active {
+background-color: firebrick;
+color: floralwhite;
+}
+nav .open a:hover {
+    background-color: rgb(214, 175, 175);
+    color: rgb(3, 46, 102);
+}
+nav a:active {
+    background-color: rgb(219, 77, 77);
+    color: rgb(3, 46, 102);
+}
+/* quando clicar num link a, fica marcado  */
+ul a:focus{
+    background-color: rgb(231, 83, 72);
+}
+img p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
